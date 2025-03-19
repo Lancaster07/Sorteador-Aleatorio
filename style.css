@@ -44,7 +44,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   gap: 30px;
 }
 
@@ -86,5 +86,33 @@ img {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  img {
+    width: 120px;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .box-2 {
+    gap: 10px;
+  }
+
+  p {
+    font-size: 60px;
+    margin-top: 30px;
   }
 }
